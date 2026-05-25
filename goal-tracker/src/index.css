@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  background: #020617;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+select option {
+  background: #1e1b4b;
+  color: white;
+}
+
+input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c3aed;
+  border-radius: 999px;
+}
